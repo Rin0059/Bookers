@@ -13,14 +13,116 @@
  *= require_tree .
  *= require_self
  */
-.turbolinks-progress-bar {
-      position: fixed;
+.html {
+    display: block;
+}
+
+.body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+  }
+
+
+
+.h1 {
       display: block;
-      top: 0;
-      left: 0;
-      height: 3px;
-      background: #0076ff;
-      z-index: 9999;
-      transition: width 300ms ease-out, opacity 150ms 150ms ease-in;
-      transform: translate3d(0, 0, 0);
-     }
+      font-size: 2em;
+      font-weight: bold;
+  }
+
+
+.strong {
+    font-weight: bold;
+}
+
+.p, .ol, .ul, .td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.p {
+    display: block;
+}
+
+
+.table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.th {
+    padding-bottom: 5px;
+}
+
+
+.th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+
+.#notice {
+    color: green;
+}
+
+
+.input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(black, white);
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+.div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+.div {
+    display: block;
+}
+
+.a {
+    color: #000;
+}
+
+
+.a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
