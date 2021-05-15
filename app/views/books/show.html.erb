@@ -1,6 +1,4 @@
-<%= flash.each do |key, value| %>
-  <p><%= value %></p>
-<% end %>
+<%= flash[:notice] %>
 
 <h2>Title</h2>
 <p><%= @book.title %></p>
